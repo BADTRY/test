@@ -1,0 +1,597 @@
+/*-----------------------import font----------------------*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+html, body{
+  height: 100%;
+  width: 100%;
+  font-family: 'montserrat';
+  background-color: #1A1818;
+  color: white;
+}
+/*-----------------------navbar----------------------*/
+.navbar{
+  padding: .5rem;
+  background-color: #2F2D2D;
+  height: 75px;
+  box-shadow: 4px 4px 45px 4px rgba(0, 0, 0, 0.25);
+}
+.navbar img{
+  height: 65.18px;
+  
+}
+.navbar-nav :active{
+  color: white;
+}
+.navbar-nav li{
+  padding-right: 90px;
+}
+.navbar-nav li :hover{
+ background-color: #27252579;
+ border-radius: 5px;
+}
+.navbar-nav .active :hover{
+  color: red;
+ }
+
+.nav-link {
+  font-size: 18px !important;
+  font-weight: bold;
+}
+
+
+/*                background picture                 */
+.pictureintro{
+  width: 100%;
+  display: flex;
+  margin: -20px auto 20px auto;
+  position: relative;
+}
+.pictureintro img{
+  border-radius: 10px;
+  box-shadow: 0px 4px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.pictureintro h1{
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 40px;
+}
+.pictureintro h2{
+  font-size: 40px;
+  position: absolute;
+  top: 42%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/*                profile picture                 */
+.containers{
+  background-color: #272525;
+  height: 437.52px;
+  width: 100%;
+  display: flex;
+  margin: -12% auto 5% auto;
+  position: relative;
+  background: #191818;
+  box-shadow: 0px 4px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+  color: white;
+}
+.eww img{
+  height: 298px;
+  width: 298px;
+  margin: 4rem 0px 0px 50px;
+  border-radius: 10px;
+}
+.neww h1{
+  font-size: 40px;
+  margin: 7rem 0px 17% 3%;
+  padding: 1% 0px 5px 1%;
+  border-left-style:solid;
+  border-color: white;
+  border-width: 1px;
+}
+.neww .head1{
+  font-size: 24px;
+  margin: 1% 0% 0% 5%;
+}
+.neww .small{
+  font-size: 18px;
+  margin: 1% 0% 0% 5%;
+}
+.eww{
+  width: 100%;
+  margin: 0% 0% 0% 0%;
+
+}
+.neww{
+  margin: 0% 0% 0% 0%;
+  width: 100%;
+  line-height: 25px;
+}
+
+
+/*                goals               */
+.goals{
+  margin-top: 3%;
+  margin-bottom: 18%;
+}
+.goalcon{
+  background-color: #181717;
+  height: 437.52px;
+  width: 638.9px;
+  height: 329.79px;
+  display: flex;
+  margin: -20% auto 20px 59%;
+  position: relative;
+  color: white;
+  box-shadow: 0px 4px 4px 4px rgba(0, 0, 0, 0.25);
+  opacity: 90%;
+}
+.behindbox{
+  background-color: #181717;
+  height: 437.52px;
+  width: 638.9px;
+  height: 329.79px;
+  display: flex;
+  margin: -23% auto 20px 61%;
+  position: relative;
+  color: white;
+  opacity: 90%;
+}
+
+
+.goalcon h1{
+  margin: 70px 20px 0px 20px;
+  font-weight: bold;
+}
+.goalcon p{
+  margin: 0px 20px 50px 20px;
+  line-height: 25px;
+}
+
+/*                SCHOOL ATTENDED              */
+.schoolintro{
+  margin-top: 10%;
+  background-color: #2F2D2D;
+  box-shadow: 4px 4px 45px 4px rgba(0, 0, 0, 0.25);
+  height: 873px;
+  margin-bottom: 10%;
+}
+.schoolintro h1{
+  font-size: 60px;
+  text-align: center;
+  padding: 10rem 0px 2rem 0px;
+}
+.schoolintro p{
+  font-size: 18;
+  font-family: 'open sans';
+  text-align: center;
+}
+.schoolintro .p{
+  padding-top: 50%;
+}
+.schoolattend{
+  background-color: 191818;
+  box-shadow: 4px 4px 45px 4px rgba(0, 0, 0, 0.25);
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+.schoolattend h2{
+  text-align: center;
+  padding: 11rem 0px 0px 0px;
+  font-size: 28px;
+  font-weight: bold;
+}
+.schoolattend h4{
+  font-size: 24px;
+  font-weight: bold;
+  padding: 0px 5% 0px 5%;
+  margin: 60px 0px 20px 0px;
+}
+.schoolattend .line{
+  border-left-style:solid;
+  border-color: white;
+  border-width: 1px;
+  margin: 0px 5% 0px 19%;
+}
+.schoolattend h6{
+  font-size: 18px;
+  padding: 0px 5% 0px 5%;
+  font-family: 'open sans';
+}
+
+/*                about intro                     */
+.title{
+  border-left-style:solid;
+  border-color: white;
+  border-width: 1px;
+  margin: 3rem 5% 0% 12%;
+  padding: 1.7rem 0px 1.7rem 4rem;
+  font-weight: bold;
+  
+}
+.title h1{
+  font-weight: bold;
+  font-size: 36px;
+}
+/*                about                     */
+.myskills {
+  margin-top: 8%;
+  background-color: #2F2D2D;
+  box-shadow: 4px 4px 45px 4px rgba(0, 0, 0, 0.25);
+  margin-bottom: 10%;
+  padding: 2rem 0rem 4rem 4rem;
+  border-radius: 10px;
+  height: 450px;
+  overflow: hidden;
+}
+.myskills .skillsline{
+  border-left-style:solid;
+  border-color: white;
+  border-width: 1px;
+  padding: 0px 0px 20px 50px;
+  margin: 50px 0px 30px 92px;
+}
+.myskills img{
+  display: flex;
+  margin: -32px 0px 0px -15px;
+  position: absolute;
+  padding: 0px;
+  height: 450px;
+}
+.skillsline p{
+  font-size: 16px;
+}
+.skillsline h3{
+  font-size: 28px;
+  padding-bottom: 20px;
+}
+/*                about hobbies             */
+
+.myhobbies{
+  margin-top: 8%;
+  background-color: #2F2D2D;
+  box-shadow: 4px 4px 45px 4px rgba(0, 0, 0, 0.25);
+  margin-bottom: 10%;
+  padding: 2rem 0rem 4rem 4rem;
+  border-radius: 10px;
+  height: 450px;
+  overflow: hidden;
+}
+.myhobbies .hobbiesline{
+  border-left-style:solid;
+  border-color: white;
+  border-width: 1px;
+  padding: 0px 0px 20px 50px;
+  margin: 58px 0px 30px 67px;
+}
+.myhobbies img{
+  display: flex;
+  margin: -32px 0px 0px -90px;
+  position: absolute;
+  padding: 0px;
+  height: 450px;
+  width: 660px;
+}
+.hobbiesline p{
+  font-size: 16px;
+}
+.hobbiesline h3{
+  font-size: 28px;
+  padding-bottom: 20px;
+}
+/*                motto              */
+.motto{
+  margin: 0% 0px 30% 0px;
+}
+.motto h1{
+  margin: 0rem 0rem 3rem 46%;
+  padding: 0rem 0rem 0rem 1rem;
+  border-left-style:solid;
+  border-color: white;
+  border-width: 1px;
+ 
+}
+.m1 p{
+  position: absolute;
+  left: 5%;
+  border-left-style:solid;
+  border-color: white;
+  border-width: 5px;
+  padding: 0px 0px 0px 10px;
+  margin: 50px 0px 70px 0px;
+}
+.m2 .p1{
+  position: absolute;
+  left: 33%;
+  border-left-style:solid;
+  border-color: white;
+  border-width: 5px;
+  padding: 0px 0px 0px 10px;
+  margin: 100px 0px 30px 0px;
+}
+.m2p{
+  position: absolute;
+  left: 60%;
+  padding: 0px 0px 0px 10px;
+  margin: 120px 0px 30px 0px;
+  font-size: 12px;
+}
+.m3 p{
+  position: absolute;
+  left: 65%;
+  border-left-style:solid;
+  border-color: white;
+  border-width: 5px;
+  padding: 0px 0px 0px 10px;
+  margin: 150px 0px 10% 0px;
+}
+.motto a{
+  position: absolute;
+  left: 48%;
+  background-color: transparent;
+  margin: 300px 0px 70px 0px;
+  color: white;
+  padding: 15px 40px 15px 40px;
+  border-width: 1px;
+  border-color: white;
+}
+.motto a:hover{
+  background-color: white;
+  color: #181717;
+}
+/*                       contact              */
+/*                jumbotron   contact              */
+
+
+
+.jumbotronform{
+  padding: 1rem;
+  border-radius: 5px;
+  background-color: #2F2D2D;
+  color: white;
+  margin: auto;
+  height: 843px;
+  line-height: 39px;
+}
+
+.jumbotronform h3{
+  border-left-style:solid;
+  border-color: white;
+  border-width: 1px;
+  margin:10% 0% 10% 35%;
+  padding: 0px 0px 0px 10px;
+  font-weight: bold;
+}
+.jumbotronform label{
+  font-size: 18px;
+  
+}
+.jumbotronform input{
+  font-size: 12px;
+  height: 40px;
+  padding: 20px;
+  margin: 0px 10rem 4rem 10px;
+  font-family: 'open sans';
+}
+.jumbotronform label{
+  font-size: 14px;
+  margin: 0px 10rem 0rem 10px;
+  font-family: 'open sans';
+}
+.jumbotronform textarea{
+  width: 100%;
+  height: 50%;
+  padding: 12px 20px;
+  border-radius: 5px;
+  border: 5px;
+  font-family: 'open sans';
+  font-size: 12px;
+  margin: 0px 10rem 0rem 10px;
+}
+
+.jumbotronform .btn{
+  background-color: #272525;
+  color: white;
+  border: none;
+  padding:20px 30px 20px 30px;
+  margin: 0px 10rem 0rem 10px;
+  font-size: 18px;
+}
+.jumbotronform .btn:hover{
+  background-color: white;
+  color:#272525;
+}
+
+
+/*         contact information               */
+
+.jumbotroncontact{
+  padding: 1rem;
+  border-radius: 5px;
+  background-color: #2F2D2D;
+  color: white;
+  height: 843px;
+  margin: 0px 0px 20% 0px;
+  line-height: 10px;
+}
+
+.jumbotroncontact p{
+  padding-bottom: 70px;
+  font-size: 16px;
+
+}
+.jumbotroncontact h5{
+  font-size: 18px;
+  font-weight: bold;
+  
+}
+.jumbotroncontact h3{
+  border-left-style:solid;
+  border-color: white;
+  border-width: 1px;
+  margin:10% 0% 10% 20%;
+  padding: 0px 0px 0px 30px;
+  font-weight: bold;
+}
+.contacts {
+  margin: 0px 0px 0px 22%;
+}
+.constain{
+  margin: 7.8rem 0px 2rem 0px;
+}
+.jumbotroncontact a{
+  font-size: 30px;
+  padding: 0px 0px 0px 6px;
+}
+
+/*                more information              */
+.titleinfo h1{
+  border-left-style:solid;
+  border-color: white;
+  border-width: 1px;
+  margin: 3rem 5% 0px 12%;
+  padding: 1.7rem 0px 1.7rem 4rem;
+  font-weight:bold;
+}
+.information{
+  border-left-style:solid;
+  border-color: white;
+  border-width: 1px;
+  padding: 0px 0px 0px 10px;
+  font-weight: bold;
+  font-size: 24px;
+  margin: 10% 0px 20px 25%;
+}
+.information1 h6{
+  line-height: 2.5rem;
+}
+.information h6{
+  line-height: 2.5rem;
+}
+.information1{
+  margin: 1rem 0px 0px 0px;
+}
+.information2 {
+  margin: 1rem 0px 0px 0px;
+}
+.information2 h6{
+  line-height: 2.5rem;
+  font-size: 14px;
+  font-family: 'open sans';
+}
+
+.containerbody{
+  background-color: #2F2D2D;
+  width: 100%;
+  height: 350px;
+  margin: 7rem 0px 4rem 0px;
+  border-radius: 10px;
+  box-shadow: 4px 4px 45px 4px rgba(0, 0, 0, 0.25);
+}
+
+.picontainer{
+  border-left-style: solid;
+  border-color: white;
+  border-width: 10px;
+  padding: 20px 20px 20px 20px;
+  margin: 60px 60px 60px 60px;
+  text-align: justify;
+  font-family: 'open sans';
+}
+.picontainer h6{
+  font-size: 24px;
+  font-weight: bold;
+  padding: 0px 0px 20px 20px;
+}
+.picontainer p{
+  padding: 0px 0px 0px 20px;
+}
+
+hr{
+  background-color: white;
+  width: 60%;
+  margin: 10% auto 10px auto;
+}
+.tabletitle{
+  margin: 10% 0% 0% 0%;
+  text-align: center;
+  font-weight: bold;
+  text-decoration: underline;
+}
+.containermore{
+  margin: 0% 0% 5% 0%;
+}
+/*                footer              */
+footer{
+  background-color: #302D2D;
+  color: #d5d5d5;
+  
+  padding-bottom: 6rem;
+}
+footer p{
+  font-size: 12px;
+  margin: 0px;
+  text-align: justify;
+  
+}
+footer h5{
+  margin-bottom: 20px;
+  font-size: 18px;
+  padding-top: 6rem;
+}
+footer a{
+  color:#d5d5d5;
+}
+footer a:hover{
+  color:grey;
+}
+footer img{
+  width: 161px;
+  margin: 4.5rem 0px 10px 0px;
+}
+
+#error{
+  background-color:rgb(243, 155, 155);
+  border-radius: 5px;
+  color: rgb(143, 10, 10);
+  font-size: 14px;
+  margin: 0px 10px 0rem 25px;
+  padding: 10px 10px 10px 2rem;
+  font-weight: bold;
+
+}
+#box{
+  background-color: none;
+}
+.socials img {
+  width: 30px;
+  margin-top: -5px;
+}
+
+/*
+Extra small (xs) devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap
+
+Small (sm) devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+Medium (md) devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+Large (lg) devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+Extra (xl) large devices (large desktops, 1200px and up)
+@media (min-width: 1366px) { ... }
+*/
+
+
+
+
+
+
+
